@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+footer {
+  width: 100%;
+  background-color: #040707;
+  padding: 50px 0;
+}
+#main {
+  height: 100%;
+  width: 100%;
+}
+#app {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+section {
+  width: 100%;
+}
+
+h1 {
+  font-size: 72px;
+}
+p {
+  font-size: 22px;
+}
+.white-text {
+  color: #fff;
+}
+.black-text {
+  color: #000;
+}
+.align-text-center {
+  text-align: center;
+}
+.align-text-left {
+  text-align: left;
+}
+#start-browsing {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../images/bg-learn.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#start-creating {
+  background: url("../images/create.png");
+  background-position: left;
+  background-size: 45%;
+  background-repeat: no-repeat;
+}
+.mainpage-section {
+  padding: 100px 0px;
+  margin: auto;
+}
+.btn {
+  padding: 1em 1.5em;
+  border-radius: 5em;
+  background-color: #f7ce3e;
+  color: #fff;
+  text-decoration: none;
+}
+.flex {
+  display: flex;
+}
+.justify-center {
+  justify-content: center;
+}
+.align-items-center {
+  align-items: center;
+}
+.flex-column {
+  flex-flow: column;
+}
+.flex-row {
+  flex-flow: row;
+}
